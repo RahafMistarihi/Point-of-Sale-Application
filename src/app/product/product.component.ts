@@ -69,7 +69,6 @@ export class ProductComponent implements OnInit {
     }
 
     this.TextAmount += 1;
-    console.log(this.TextAmount);
     
   }
 
