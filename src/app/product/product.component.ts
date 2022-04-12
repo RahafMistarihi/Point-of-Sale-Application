@@ -67,9 +67,6 @@ export class ProductComponent implements OnInit {
     else{
       this.Quantity = 1;
     }
-
-    this.TextAmount += 1;
-    
   }
 
 }
