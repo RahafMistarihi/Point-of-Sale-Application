@@ -57,7 +57,6 @@
     <div class="col-lg-2 col-xs-2" *ngFor="let item of liProducts">
       <a class="card" (click)="ProductInfo(item.id, item.name, item.restaurant, item.web, item.description, rowName)" style="width: 150px;">
         <span style="color: #4e799e; font-weight: 500;">{{ item.name }}</span>
-        <input type="hidden" [(ngModel)]="TextAmount" name="txtAmount"/>
       </a>
     </div>
   </div>
