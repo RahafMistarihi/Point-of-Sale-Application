@@ -28,7 +28,6 @@ export class ProductComponent implements OnInit {
   Quantity!:any;
   rowName:any;
 
-  TextAmount:any;
   liTable!:Product[];
 
 
@@ -38,7 +37,6 @@ export class ProductComponent implements OnInit {
     this.ProductID = 0;
     this.Quantity = 0;
     this.ProductDescription = 0;
-    this.TextAmount = 0;
   }
 
 
